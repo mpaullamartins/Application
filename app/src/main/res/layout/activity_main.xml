@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textTitulo"
+    android:layout_width="170dp"
+    android:layout_height="42dp"
+    android:layout_marginTop="8dp"
+    android:text="   +NEWS"
+    android:textSize="34sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.547"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.195"
+    tools:visibility="visible" />
+
+<EditText
+    android:id="@+id/textNumber"
+    android:layout_width="263dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:ems="10"
+    android:hint="@string/national_identification_email"
+    android:inputType="number"
+    android:maxLength="11"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/textTitulo"
+    app:layout_constraintHorizontal_bias="0.492"
+    app:layout_constraintStart_toStartOf="@+id/textTitulo"
+    app:layout_constraintTop_toBottomOf="@+id/textTitulo"
+    app:layout_constraintVertical_bias="0.181" />
+
+<EditText
+    android:id="@+id/textDate"
+    android:layout_width="271dp"
+    android:layout_height="52dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:ems="10"
+    android:hint="@string/date_of_birth"
+    android:inputType="date"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/textNumber"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/textNumber"
+    app:layout_constraintTop_toBottomOf="@+id/textNumber"
+    app:layout_constraintVertical_bias="0.113" />
+
+<TextView
+    android:id="@+id/textregistro"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:text="@string/register"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/textDate"
+    app:layout_constraintHorizontal_bias="0.416"
+    app:layout_constraintStart_toStartOf="@+id/textDate"
+    app:layout_constraintTop_toBottomOf="@+id/textDate"
+    app:layout_constraintVertical_bias="0.229" />
+
+<Button
+    android:id="@+id/buttEnviar"
+    android:layout_width="137dp"
+    android:layout_height="63dp"
+    android:layout_marginBottom="8dp"
+    android:text="@string/Send"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/textregistro"
+    app:layout_constraintHorizontal_bias="0.428"
+    app:layout_constraintStart_toStartOf="@+id/textregistro"
+    app:layout_constraintTop_toBottomOf="@+id/textregistro"
+    app:layout_constraintVertical_bias="0.415" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>

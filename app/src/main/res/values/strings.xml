@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="health">+Health❤️</string>
+    <string name="national_identification_email">E-mail</string>
+    <string name="date_of_birth">Senha</string>
+    <string name="send">proximo</string>
+    <string name="register">Registrar</string>
+    <string name="Send">proximo</string>
+    <string name="sex">Sexo</string>
+    <string name="masculine">Masculino</string>
+    <string name="feminine">Feminino</string>
+    <string name="phone">Numero</string>
+    <string name="data_of_birth">Data de Aniversario</string>
+    <string name="national_identication_number">Localidade</string>
+    <string name="full_name">Nome Completo</string>
+    <string name="Register">Register</string>
+    <string name="next">Next</string>
+</resources>
